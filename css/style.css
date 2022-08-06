@@ -53,6 +53,34 @@ ul {
   color: #000
 }
 
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  align-items: center;
+}
+
+.logo {
+  width: 300px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.navbar li {
+  margin: 10px;
+}
+
+.navbar li img {
+  height: 35px;
+  width: 35px;
+}
+
 
 /* Media Queries */
 
