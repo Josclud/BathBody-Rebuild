@@ -27,6 +27,7 @@ ul {
 
 .text-md {
   text-transform: uppercase;
+  letter-spacing: 1.4px;
 }
 
 /* Banner */
@@ -64,14 +65,17 @@ ul {
 /* Navbar */
 
 .navbar {
-  height: 60px;
+  height: px;
+  position: sticky;
+  top: 0;
+  background: #fff;
 }
 
 .navbar-container {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 75px;
+  height: 100px;
   align-items: center;
 }
 
@@ -121,6 +125,21 @@ ul {
 .lower-nav li:hover {
   border-bottom: 4px solid rgb(0, 86, 153);
 }
+
+/* Marketing */
+
+
+
+.banner-a {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.pocket {
+  width: 80%;
+}
+
 
 
 /* Media Queries */
