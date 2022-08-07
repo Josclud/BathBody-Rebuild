@@ -25,9 +25,21 @@ ul {
   font-weight: 500;
 }
 
+.blue {
+  color: rgb(0, 86, 153);
+}
+
+.text-sm {
+  font-size: 12px;
+}
+
 .text-md {
   text-transform: uppercase;
   letter-spacing: 1.4px;
+}
+
+.text-bold {
+  font-weight: bold;
 }
 
 /* Banner */
@@ -65,7 +77,6 @@ ul {
 /* Navbar */
 
 .navbar {
-  height: px;
   position: sticky;
   top: 0;
   background: #fff;
@@ -127,9 +138,6 @@ ul {
 }
 
 /* Marketing */
-
-
-
 .banner-a {
   display: flex;
   justify-content: center;
@@ -139,6 +147,59 @@ ul {
 .pocket {
   width: 80%;
 }
+
+/* Marketing Materials */
+.top-container {
+  display: flex;
+  justify-content: center;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+.top-offers {
+  width: 80%;
+  background: rgb(242, 242, 242);
+  padding-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+  height: auto;
+}
+
+.card-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  width: 175px;
+  height: 175px;
+  text-align: center;
+}
+
+.btn-dark {
+  background: rgb(51, 51, 51);
+  color: #fff;
+  width: 100px;
+  height: 30px;
+  box-shadow: none;
+}
+
+.card li {
+  margin: 5px 5px;
+}
+
+
+
+
 
 
 
