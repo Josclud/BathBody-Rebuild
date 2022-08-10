@@ -42,6 +42,10 @@ ul {
   font-weight: bold;
 }
 
+.header-text {
+  text-transform: uppercase;
+}
+
 /* Banner */
 .banner {
   display: flex;
@@ -144,11 +148,11 @@ ul {
   padding: 20px 0;
 }
 
-.pocket {
+.market {
   width: 80%;
 }
 
-/* Marketing Materials */
+/* top sales */
 .top-container {
   display: flex;
   justify-content: center;
@@ -197,11 +201,37 @@ ul {
   margin: 5px 5px;
 }
 
+/* Category Shopping */
+
+.top {
+  width: 80%;
+  padding-bottom: 20px;
+}
+
+.category-img {
+  width: 125px;
+  height: 125px;
+}
+
+.category-cards {
+  display: flex;
+  justify-content: space-between;
+}
 
 
+.category-sqe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.category-sqe a {
+  color: #000;
+}
 
-
+.top h3 {
+  margin-bottom: 20px;
+}
 
 /* Media Queries */
 
