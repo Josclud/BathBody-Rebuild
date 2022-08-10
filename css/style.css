@@ -233,6 +233,50 @@ ul {
   margin-bottom: 20px;
 }
 
+
+/* Pick from the patch */
+
+.marketing-panels {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.patch-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopping-container {
+  display: flex;
+}
+
+.shopping, 
+.shopping ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+}
+
+.shopping img {
+  width: auto;
+  height: 100px;
+}
+
+.promo {
+  width: 450px;
+  height: auto;
+}
+
+.new-arrivals {
+  height: auto;
+  width: 500px;
+}
+
 /* Media Queries */
 
 @media (max-width: 768px) {
