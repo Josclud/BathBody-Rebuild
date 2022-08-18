@@ -243,6 +243,7 @@ ul {
   align-items: center;
   width: 80%;
 }
+
 .patch-title {
   display: flex;
   flex-direction: column;
@@ -252,15 +253,15 @@ ul {
 
 .shopping-container {
   display: flex;
-  
+
 }
 
 .patch-container {
-  /* width: 100%; */
+  width: 100%;
 }
 
 
-.shopping, 
+.shopping,
 .shopping ul {
   display: flex;
   flex-direction: column;
@@ -286,6 +287,12 @@ ul {
   align-items: center;
   height: auto;
   width: 500px;
+}
+
+.halloween {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
 }
 
 /* Media Queries */
