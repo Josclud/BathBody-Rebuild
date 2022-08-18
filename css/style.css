@@ -238,8 +238,10 @@ ul {
 
 .marketing-panels {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   flex-wrap: wrap;
+  align-items: center;
+  width: 80%;
 }
 .patch-title {
   display: flex;
@@ -250,7 +252,13 @@ ul {
 
 .shopping-container {
   display: flex;
+  
 }
+
+.patch-container {
+  /* width: 100%; */
+}
+
 
 .shopping, 
 .shopping ul {
@@ -273,6 +281,9 @@ ul {
 }
 
 .new-arrivals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: auto;
   width: 500px;
 }
