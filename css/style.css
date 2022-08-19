@@ -57,20 +57,50 @@ ul {
 }
 
 .text-bold {
-  font-weight: bold;
+  font-weight: 400;
+}
+
+.text-lg {
+text-transform: uppercase;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1.4px;
 }
 
 .header-text {
   text-transform: uppercase;
 }
 
+
+.btn-dark {
+  background: rgb(51, 51, 51);
+  color: #fff;
+  width: 100px;
+  height: 30px;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+}
+
 .btn-light {
   background-color: #f2f2f2;
   border: none;
-  width: 250px;
-  height: 50px;
+  width: auto;
+  height: auto;
+  padding: 15px 20px;
   text-transform: uppercase;
   font-weight: 500;
+  cursor: pointer;
+}
+
+.button-dark {
+  background: rgb(51, 51, 51);
+  color: #fff;
+  width: 80%;
+  height: 70px;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
 }
 
 
@@ -217,13 +247,6 @@ ul {
   text-align: center;
 }
 
-.btn-dark {
-  background: rgb(51, 51, 51);
-  color: #fff;
-  width: 100px;
-  height: 30px;
-  box-shadow: none;
-}
 
 .card li {
   margin: 5px 5px;
@@ -280,12 +303,12 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin: 10px 0;
+
 }
 
 .patch-title p {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin: 10px 0;
 }
 
 .shopping-container {
@@ -329,12 +352,30 @@ ul {
   align-items: center;
   height: auto;
   width: 500px;
+  margin-top: 30px;
 }
 
+/* halloween banner */
 .halloween {
   display: flex;
   justify-content: center;
   padding: 20px 0;
+}
+
+/* gift links */
+.gifts {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.gifts button {
+  margin: 15px;
+  text-transform: uppercase;
+  width: auto;
+  height: auto;
+  padding: 10px 30px;
 }
 
 /* Media Queries */
