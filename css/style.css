@@ -45,9 +45,10 @@ ul {
   text-transform: uppercase;
   letter-spacing: 1.4px;
 }
+
 .text-md-logo {
   color: grey;
-  
+
 }
 
 .text-sm-grey {
@@ -55,9 +56,24 @@ ul {
   color: grey
 }
 
+.text-sm-bold {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+}
+
 .text-md-grey {
   font-size: 12px;
   color: grey
+}
+
+
+.text-lg-grey {
+  font-size: 30px;
+  color: black;
+  font-weight: 200;
+  letter-spacing: 2px;
 }
 
 .text-bold {
@@ -65,10 +81,10 @@ ul {
 }
 
 .text-lg {
-text-transform: uppercase;
-font-size: 18px;
-font-weight: 700;
-letter-spacing: 1.4px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
 }
 
 .header-text {
@@ -402,6 +418,7 @@ letter-spacing: 1.4px;
   align-items: center;
   justify-content: center;
 }
+
 .about li img {
   width: 130px;
   height: 130px;
@@ -411,7 +428,7 @@ letter-spacing: 1.4px;
 
 /* logo */
 .logo-bbw-container {
-  margin: 20px 0;
+  margin: 40px 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -427,6 +444,75 @@ letter-spacing: 1.4px;
   letter-spacing: 5px;
   font-weight: 400;
 }
+
+/* insta images */
+.insta-container {
+  display: flex;
+  justify-content: space-evenly;
+  /* width: 80%; */
+  padding: auto;
+  margin-bottom: 50px;
+}
+
+.insta-img {
+  height: 200px;
+  width: 200px;
+}
+
+
+/* mission statement */
+
+.mission-statement {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+.mission-statement-container {
+  text-align: center;
+  width: 60%;
+}
+
+/* footer 1 */
+.footer-1 {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  width: 100%;
+  border-top: 2px lightgrey solid;
+}
+
+.email-signup {
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+.links {
+  display: flex;
+}
+.link-main {
+  margin: 0 20px;
+  margin-top: 20px;
+}
+
+.links li{
+  font-size: 10px;
+  color: grey;
+  margin: 5px;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.links a:visited {
+  color: grey;
+  text-decoration: none;
+  
+}
+
 
 
 /* Media Queries */
