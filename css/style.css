@@ -185,8 +185,8 @@ ul {
 }
 
 .navbar-container input {
-  width: 200px;
-  height: 25px;
+  width: 215px;
+  height: 35px;
 }
 
 .navbar-container li img {
@@ -194,10 +194,13 @@ ul {
   width: 35px;
 }
 
+.lower-nav {
+  margin: 0 30px;
+}
+
 .lower-nav ul {
   display: flex;
   justify-content: space-between;
-  margin: 50px;
   list-style: none;
   font-size: 12px;
 }
@@ -474,6 +477,11 @@ ul {
   border-top: 1px lightgrey solid;
 }
 
+.info-icon {
+  position: relative;
+  top: 10px;
+}
+
 .email-signup input {
   width: 150px;
   height: 30px;
@@ -503,6 +511,20 @@ ul {
 .links a:visited {
   color: grey;
   text-decoration: none;
+}
+
+.socials {
+  margin-top: 10px;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 10px;
+}
+.social-icons img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
 }
 
 /* return */
